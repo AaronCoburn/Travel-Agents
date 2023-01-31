@@ -59,25 +59,29 @@ p{
 }
 
 img{
+    contain: inline-size;
     width: 40%;
     object-fit: cover;
+    /* margin: 10px; */
+    padding: 17px 9px;
 }
 
 
 .aboutimages{
     background-color: #C6A8FF;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 15px 5px;
+    justify-content: space-between;
+    /* align-content: center; */
+    /* margin: 25px 65px; */
+    padding: 0 10px;
 }
 
-.aboutimages img{
+/* .aboutimages img{
     align-items: center;
     margin: 15px;
-    height: 30%;
-    width: 30%;
-}
+    height: 30vh;
+    width: 30vw;
+} */
 
 footer, a{
     text-decoration: none;

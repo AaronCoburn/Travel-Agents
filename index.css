@@ -11,6 +11,21 @@
     background-color: #C6A8FF;
 } */
 
+.loc_map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    margin: 10px 0 60px 0;
+}
+iframe{
+    /* height: 80%; */
+    width: 80%;
+    filter: invert(100%);
+}
+
 .nav-container{
     display: flex;
     flex-wrap: wrap;
