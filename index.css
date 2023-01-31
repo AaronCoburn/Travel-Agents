@@ -97,6 +97,33 @@ img{
     margin: 15px;
 }
 
+.reviews_nav {
+    color: #3D352B;
+    background-color: #CECBD3;
+    padding: 0.1rem;
+    text-align: center;
+    padding: 0.1;
+    margin-bottom: 30px;
+}
+
+.reviews_nav h2  {
+    color: #F2A541;
+    background-color: #1e1e1e;
+    padding: 0.3rem;
+}
+
+h3{
+    color: #1E1201;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+q {
+    color: #1E1201;
+    background-color: #CECBD3;
+    padding: 0.1rem;
+}
+
 footer, a{
     text-decoration: none;
     display: flex;
