@@ -1,0 +1,211 @@
+*{
+    background-color: #C6A8FF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: chocolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #3D352B;
+    justify-content: space-between;
+}
+
+.nav-left, .nav-right{
+    list-style-type: none;
+    color: white;
+    background-color: #3D352B;
+    text-align: center;
+    /* flex-flow: column wrap;
+    align-content: space-between; */
+}
+
+.nav-left li, .nav-right li{
+    display: inline-block;
+    color: #3D352B;
+    background-color: #CECBD3;
+}
+
+.nav-left li a, .nav-right li a{
+    display: block;    
+    /* padding: 20px 30px; */
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: #3D352B;
+    text-decoration: none;
+}
+
+.nav-left li a:hover{
+    background-color: #F2A541;
+}    
+
+.nav-right li a:hover{
+    background-color: #F2A541;
+}
+
+h1{
+    font-size: 2rem;
+    color: #3D352B;
+    background-color: #C6A8FF;
+    /* margin: 40px 10px; */
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    background-color: #C6A8FF;
+    font-size: 30px;
+    text-overflow: w;
+    text-align: center;
+    color: #3d352b;
+    /* background-color: #3d352b; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.info{
+    margin: 0;
+    font-size: 25px;
+}
+
+.emailaddr{
+    word-wrap: break-word;
+    font-size: 20px;
+    color: #3D352B;
+}
+
+body{
+    margin: 0;
+    /* padding: 20px; */
+    font-family: sans-serif;
+} 
+
+.table_container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+.table_container thead tr th{
+    font-size: 14px;
+    font-weight: meduim;
+    letter-spacing: 0.3px;
+    color: white;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid white;
+}
+
+.table_container tbody tr td{
+    font-size: large;
+    letter-spacing: 0.3px;
+    font-weight: 200;
+    color: #3D352B;
+    background-color: #C6A8FF;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #3D352B;
+}
+.table_container td, .table_container th{
+    padding:  12px 15px;
+    border: 1px solid #C6A8FF;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table_container th{
+    background-color: #3D352B;
+    color: #C6A8FF;
+}
+
+.table_container tbody td:nth-child(even){
+    background-color: #CECBD3;
+}
+
+@media(max-width:630px){
+    .table_container thead{
+        display: none;
+    }
+
+    .table_container, .table_container tbody, .table_container tr, .table_container td{
+        display: block;
+        width: auto;
+    }
+
+    .table_container tr{
+        margin-bottom: 15px;
+    }
+
+    .table_container tbody tr td{
+        /* text-align: right; */
+        /* padding:10vmin; */
+        position: relative;
+    }
+
+    /* .table_container td::before{ */
+        /* content: attr(data-label);
+        position: absolute; */
+        /* left: 0; */
+        /* width: 50%; */
+        /* padding-left: 15px; */
+        /* font-size: 15px; */
+        /* font-weight: bold; */
+        /* text-align: middle;
+        font-size: 14px;
+        font-weight: 600; */
+    /* } */
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #3D352B;
+    background-color: #C6A8FF;
+}
+
+table, th, td{
+    border: 1px solid #3D352B;
+    /* padding: 20px 40px; */
+    color: #3D352B;
+    background-color: C6A8FF;
+    /* vertical-align: middle; */
+}
+
+footer, a{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    color: white;
+    background-color: #3D352B;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer a:hover{
+    background-color: #F2A541;
+}
+
+@media only screen and (max-width: 600px){ 
+    /* *{
+        margin: 0;
+    } */
+    .nav-container, .nav-left, .nav-right{
+        contain: content;
+        /* flex-shrink: inherit; */
+        /* padding: 0;
+        margin: auto; */
+    }
+}
