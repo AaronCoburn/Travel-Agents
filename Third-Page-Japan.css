@@ -19,22 +19,24 @@
     list-style-type: none;
     color: white;
     background-color: #3D352B;
+    text-align: center;
     /* flex-flow: column wrap;
     align-content: space-between; */
 }
 
 .nav-left li, .nav-right li{
     display: inline-block;
-    color: white;
-    background-color: #3D352B;
+    color: #3D352B;
+    background-color: #CECBD3;
 }
 
 .nav-left li a, .nav-right li a{
     display: block;    
-    padding: 20px 30px;
+    /* padding: 20px 30px; */
+    justify-content: center;
     width: 100%;
     height: 100%;
-    text-align: right;
+    text-align: center;
     color: white;
     background-color: #3D352B;
     text-decoration: none;
