@@ -11,42 +11,40 @@
     display: flex;
     flex-wrap: wrap;
     color: white;
-    background-color: #3D352B;
+    background-color: rgb(48, 30, 16);
     justify-content: space-between;
 }
 
 .nav-left, .nav-right{
     list-style-type: none;
     color: white;
-    background-color: #3D352B;
-    text-align: center;
-    /* align-items: center; */
-    /* flex-flow: column wrap; */
+    background-color: rgb(48, 30, 16);
+    /* flex-flow: column wrap;
+    align-content: space-between; */
 }
 
 .nav-left li, .nav-right li{
     display: inline-block;
     color: white;
-    background-color: #3D352B;
+    background-color: rgb(48, 30, 16);
 }
-
 .nav-left li a, .nav-right li a{
     display: block;    
-    /* padding: 20px 30px; */
+    padding: 20px 30px;
     width: 100%;
     height: 100%;
     text-align: center;
     color: white;
-    background-color: #3D352B;
+    background-color: rgb(48, 30, 16);
     text-decoration: none;
 }
 
 .nav-left li a:hover{
-    background-color: #F2A541;
+    background-color: rgb(185, 113, 58);
 }    
 
 .nav-right li a:hover{
-    background-color: #F2A541;
+    background-color: rgb(185, 113, 58);
 }
 
 h1{
@@ -86,7 +84,7 @@ h3{
 
 fieldset{
 
-    background-color: #C6A8FF;
+    background-color: #fabcbc;
 }
 
 label{
@@ -100,7 +98,7 @@ label{
 }
 
 label{
-    background-color: #C6A8FF;
+    background-color: #fabcbc;
     color: #3D352B;
 }
 
@@ -130,6 +128,7 @@ input[type=submit]{
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
+
 }
 
 footer, a{
@@ -139,28 +138,27 @@ footer, a{
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    color:white;
-    background-color: #3D352B;
+    color: white;
+    background-color: rgb(48, 30, 16);
     padding: 20px;
     font-size: 20px;
 }
 
 footer a:hover{
-    background-color: #F2A541;
+    background-color: rgb(185, 113, 58);
 }
 
-@media only screen and (max-width: 600px){ 
-    /* *{
+@media only screen and (max-width: 200px){ 
+    *{
         margin: 0;
-    } */
+    }
     .nav-container, .nav-left, .nav-right{
-        contain: content;
-        /* flex-shrink: inherit; */
+        flex-shrink: inherit;
         padding: 0;
         margin: auto;
     }
     
     .form{
-        margin: 2px;
+        margin: auto;
     }
 }
