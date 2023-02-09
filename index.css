@@ -6,10 +6,8 @@
     color: chocolate;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 /* #1E1201 (Dark Chocolate), 3D352B (Dark Lava), #F2A541 (Yellow Orange), #C6A8FF (Mauve), #CECBD3 (Lavander Grey) */
-/* body{
-    background-color: #C6A8FF;
-} */
 
 .loc_map{
     display: flex;
@@ -20,8 +18,8 @@
     flex-wrap: nowrap;
     margin: 10px 0 60px 0;
 }
+
 iframe{
-    /* height: 80%; */
     width: 80%;
     filter: invert(100%);
 }
@@ -32,7 +30,6 @@ iframe{
     color: white;
     background-color: #3D352B;
     justify-content: space-between;
-    /* color: #3D352B; */
 }
 
 .nav-left, .nav-right{
@@ -40,19 +37,17 @@ iframe{
     color: white;
     background-color: #3D352B;
     text-align: center;
-    /* flex-flow: column wrap;
-    align-content: space-between; */
 }
 
 .nav-left li, .nav-right li{
     display: inline-block;
-    color: white;
-    background-color: #3D352B;
+    color: #3D352B;
+    background-color: #CECBD3;
 }
 
 .nav-left li a, .nav-right li a{
-    display: block;    
-    padding: 20px 30px;
+    display: block;
+    justify-content: center;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -151,14 +146,8 @@ footer a:hover{
 }
 
 @media only screen and (max-width: 600px){ 
-    /* *{
-        margin: 0;
-    } */
     .nav-container, .nav-left, .nav-right{
         contain: content;
-        /* flex-shrink: inherit; */
-        /* padding: 0;
-        margin: auto;*/
     } 
     h1{
         font-size: 20px;
