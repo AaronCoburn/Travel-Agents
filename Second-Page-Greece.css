@@ -97,3 +97,29 @@ footer, a{
 footer a:hover{
     background-color: #F2A541;
 }
+@media only screen and (max-width: 200px){
+    .images, img{
+        padding: 0.8px;
+    }
+    
+    h1{
+        font-size: 15vw;
+        margin: 5px 0;
+        padding: 1px;
+    }
+
+    p{
+        font-size: 10vw;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    footer{
+        margin: 2px 0;
+    }
+    
+    footer, a{
+        padding: 8px;
+        font-size: 10vw;
+    }
+}
