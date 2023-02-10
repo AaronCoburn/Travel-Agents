@@ -185,3 +185,36 @@ footer a:hover{
         contain: content;
     }
 }
+
+@media only screen and (max-width: 200px){
+    .info{
+        font-size: 15.5vw;
+        margin: 8px 0;
+    }
+    p{
+        font-size: 15.1vw;
+        padding:0;
+        margin:8px;
+    }
+    h1{
+        font-size: 0.5rem;
+        padding: 2px;
+        margin: 1.3vh 0;
+    }
+    h2{
+        font-size: 0.5rem;
+        padding: 7px;
+    }
+    .table_container tbody tr td{
+        font-size: 0.4rem;
+    }
+    footer, a{
+        padding:8px;
+    }
+    a{
+        font-size: 0.4rem;
+    }
+    .emailaddr{
+        font-size: 14.5vw;
+    }
+}

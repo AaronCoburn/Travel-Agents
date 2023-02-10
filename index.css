@@ -157,3 +157,48 @@ footer a:hover{
     }
     
 }
+
+@media only screen and (max-width: 200px){
+    footer a{
+        font-size: 10vw;
+        padding: 8px;
+    }
+    .images{
+        margin: 0;
+    }
+    .images img{
+        margin: 5px 0 2px 0;
+    }
+
+    h1{
+        font-size: 15vw;
+        margin: 0;
+    }
+
+    p{
+        font-size: 10.5vw;
+        padding: 2px;
+        margin: 0;
+    }
+    .reviews_nav h2{
+        padding: 0;
+    }
+    h2{
+        font-size: 18vw;
+        padding: 2px;
+    }
+    .loc_map{
+        margin: 1px 0 5px 0;
+    }
+    h3{
+        font-size: 15vw;
+    }
+
+    q{
+        font-size: 10vw;
+    }
+    footer, a{
+        padding: 8px;
+        font-size: 10vw;
+    }
+}
